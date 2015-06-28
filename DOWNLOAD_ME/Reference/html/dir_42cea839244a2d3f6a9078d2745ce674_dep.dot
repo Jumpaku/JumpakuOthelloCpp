@@ -1,0 +1,11 @@
+digraph "/Users/itoutomohiko/Documents/SourceTree/OthelloTest/Othello/Utility/Cpps" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_efb4715db9a71e22aea1c5cec602224d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Utility" fontname="Helvetica", fontsize="10", URL="dir_efb4715db9a71e22aea1c5cec602224d.html"]
+  dir_42cea839244a2d3f6a9078d2745ce674 [shape=box, label="Cpps", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_42cea839244a2d3f6a9078d2745ce674.html"];
+  }
+  dir_2637779b78a37eec555f7dff62455e5c [shape=box label="Board" fillcolor="white" style="filled" color="red" URL="dir_2637779b78a37eec555f7dff62455e5c.html"];
+  dir_42cea839244a2d3f6a9078d2745ce674->dir_2637779b78a37eec555f7dff62455e5c [headlabel="1", labeldistance=1.5 headhref="dir_000006_000002.html"];
+}

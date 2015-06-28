@@ -1,0 +1,10 @@
+digraph "/Users/itoutomohiko/Documents/SourceTree/OthelloTest" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5b5b4e709c0766066b04ab61ca05f6de {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_5b5b4e709c0766066b04ab61ca05f6de.html"];
+    dir_5b5b4e709c0766066b04ab61ca05f6de [shape=plaintext label="OthelloTest"];
+    dir_e036d5bcb7286741379924190fa1a3a0 [shape=box label="Othello" color="red" fillcolor="white" style="filled" URL="dir_e036d5bcb7286741379924190fa1a3a0.html"];
+  }
+}

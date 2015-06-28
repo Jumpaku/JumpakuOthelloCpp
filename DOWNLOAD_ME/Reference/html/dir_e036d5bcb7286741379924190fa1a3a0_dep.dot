@@ -1,0 +1,18 @@
+digraph "/Users/itoutomohiko/Documents/SourceTree/OthelloTest/Othello" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5b5b4e709c0766066b04ab61ca05f6de {
+    graph [ bgcolor="#ddddee", pencolor="black", label="OthelloTest" fontname="Helvetica", fontsize="10", URL="dir_5b5b4e709c0766066b04ab61ca05f6de.html"]
+  subgraph clusterdir_e036d5bcb7286741379924190fa1a3a0 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_e036d5bcb7286741379924190fa1a3a0.html"];
+    dir_e036d5bcb7286741379924190fa1a3a0 [shape=plaintext label="Othello"];
+    dir_2637779b78a37eec555f7dff62455e5c [shape=box label="Board" color="red" fillcolor="white" style="filled" URL="dir_2637779b78a37eec555f7dff62455e5c.html"];
+    dir_481956d4e67753b5bdef1daba9617c13 [shape=box label="Strategy" color="black" fillcolor="white" style="filled" URL="dir_481956d4e67753b5bdef1daba9617c13.html"];
+    dir_efb4715db9a71e22aea1c5cec602224d [shape=box label="Utility" color="red" fillcolor="white" style="filled" URL="dir_efb4715db9a71e22aea1c5cec602224d.html"];
+  }
+  }
+  dir_481956d4e67753b5bdef1daba9617c13->dir_efb4715db9a71e22aea1c5cec602224d [headlabel="1", labeldistance=1.5 headhref="dir_000004_000005.html"];
+  dir_2637779b78a37eec555f7dff62455e5c->dir_efb4715db9a71e22aea1c5cec602224d [headlabel="4", labeldistance=1.5 headhref="dir_000002_000005.html"];
+  dir_efb4715db9a71e22aea1c5cec602224d->dir_2637779b78a37eec555f7dff62455e5c [headlabel="2", labeldistance=1.5 headhref="dir_000005_000002.html"];
+}

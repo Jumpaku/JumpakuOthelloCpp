@@ -1,0 +1,24 @@
+digraph "/Users/itoutomohiko/Documents/SourceTree/OthelloTest/Othello/Utility/BoardFrame.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/Users/itoutomohiko\l/Documents/SourceTree\l/OthelloTest/Othello/Utility\l/BoardFrame.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="/Users/itoutomohiko\l/Documents/SourceTree\l/OthelloTest/Othello/Board\l/Board.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/ded/_board_8h.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="/Users/itoutomohiko\l/Documents/SourceTree\l/OthelloTest/Othello/Board\l/Cpps/Board.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d34/_board_8cpp.html"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/Users/itoutomohiko\l/Documents/SourceTree\l/OthelloTest/Othello/Utility\l/BoardManager.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d3c/_board_manager_8h.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/Users/itoutomohiko\l/Documents/SourceTree\l/OthelloTest/Othello/Othello.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/df2/_othello_8cpp.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/Users/itoutomohiko\l/Documents/SourceTree\l/OthelloTest/Othello/Utility\l/Cpps/BoardManager.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d99/_board_manager_8cpp.html"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/Users/itoutomohiko\l/Documents/SourceTree\l/OthelloTest/Othello/Utility\l/BoardIterator.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d6c/_board_iterator_8h.html"];
+  Node7 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="/Users/itoutomohiko\l/Documents/SourceTree\l/OthelloTest/Othello/Utility\l/ConstBoardIterator.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9f/_const_board_iterator_8h.html"];
+  Node8 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['back',['back',['../da/daf/classjo_1_1_history.html#a4093a993c86f7dd702920b0155ac8fba',1,'jo::History']]],
+  ['begin',['begin',['../d3/dda/classjo_1_1_board_frame.html#aa2d4f32d18658cb89452ad514c851bf1',1,'jo::BoardFrame::begin()'],['../d3/dda/classjo_1_1_board_frame.html#aa47a77cfa16ad9bf42dbf9f015b796d5',1,'jo::BoardFrame::begin() const '],['../db/d68/classjo_1_1_square_collection.html#a2a3786cf2ab19a10719b237c17dd22c9',1,'jo::SquareCollection::begin()'],['../db/d68/classjo_1_1_square_collection.html#ac36c54f14c81b97e55d1cbc8a237c923',1,'jo::SquareCollection::begin() const ']]],
+  ['board',['board',['../de/d1d/classjo_1_1_othello.html#a8bcbe4e6b39aa06ccde496c0a58cfc33',1,'jo::Othello::board()'],['../de/d77/classjo_1_1_board.html#a9ee491d4fea680cf69b033374a9fdfcb',1,'jo::Board::Board()']]],
+  ['boarditerator',['BoardIterator',['../d5/d1e/classjo_1_1_board_iterator.html#aab361a26193e9f0544c07bcab6980633',1,'jo::BoardIterator::BoardIterator(Frame_t *board, Pos pos)'],['../d5/d1e/classjo_1_1_board_iterator.html#abdf33db48119b1725cd75931c3c06e1d',1,'jo::BoardIterator::BoardIterator()=default'],['../d5/d1e/classjo_1_1_board_iterator.html#af831451c02c59d5c9264f14006ab2932',1,'jo::BoardIterator::BoardIterator(BoardIterator const &amp;)=default'],['../d5/d1e/classjo_1_1_board_iterator.html#a572f63aa51588c4a4a7c8524c27e9fdb',1,'jo::BoardIterator::BoardIterator(BoardIterator &amp;&amp;)=default']]]
+];

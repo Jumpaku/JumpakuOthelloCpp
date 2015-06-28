@@ -1,0 +1,16 @@
+digraph "/Users/itoutomohiko/Documents/SourceTree/OthelloTest/Othello/Board" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e036d5bcb7286741379924190fa1a3a0 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Othello" fontname="Helvetica", fontsize="10", URL="dir_e036d5bcb7286741379924190fa1a3a0.html"]
+  subgraph clusterdir_2637779b78a37eec555f7dff62455e5c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_2637779b78a37eec555f7dff62455e5c.html"];
+    dir_2637779b78a37eec555f7dff62455e5c [shape=plaintext label="Board"];
+    dir_d5ea13e63079b0e415531bc67aea0bcf [shape=box label="Cpps" color="black" fillcolor="white" style="filled" URL="dir_d5ea13e63079b0e415531bc67aea0bcf.html"];
+  }
+  }
+  dir_efb4715db9a71e22aea1c5cec602224d [shape=box label="Utility" fillcolor="white" style="filled" color="red" URL="dir_efb4715db9a71e22aea1c5cec602224d.html"];
+  dir_d5ea13e63079b0e415531bc67aea0bcf->dir_efb4715db9a71e22aea1c5cec602224d [headlabel="2", labeldistance=1.5 headhref="dir_000003_000005.html"];
+  dir_2637779b78a37eec555f7dff62455e5c->dir_efb4715db9a71e22aea1c5cec602224d [headlabel="4", labeldistance=1.5 headhref="dir_000002_000005.html"];
+}

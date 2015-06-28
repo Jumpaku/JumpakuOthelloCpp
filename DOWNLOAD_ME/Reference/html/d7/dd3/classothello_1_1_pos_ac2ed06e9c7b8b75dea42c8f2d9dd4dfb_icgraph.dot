@@ -1,0 +1,23 @@
+digraph "othello::Pos::j"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="othello::Pos::j",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="othello::Square::j",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d80/classothello_1_1_square.html#a7abe10736abd3f9489ab237ab4824592"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="othello::BoardFrame\l\< Square \>::element",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/def/classothello_1_1_board_frame.html#a7df40d745d8f0c26a50ccc206641604c"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="othello::BoardIterator\l::increment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dc2/classothello_1_1_board_iterator.html#ad53a7033b6a37a5ed021594c2434e050"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="othello::BoardIterator\l::operator++",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dc2/classothello_1_1_board_iterator.html#aac66f48126b1d59ba44e2f84a26ec7f8"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="othello::BoardManager\l::getReversibles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d71/classothello_1_1_board_manager.html#a9e2b5b5f98417d457e026eebbee2b0a8"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="othello::Pos::j",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd3/classothello_1_1_pos.html#a79188d7f74f6585a91b7aa5eff519d44"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="othello::SquareData::j",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/de5/classothello_1_1_square_data.html#a64f08ed6c920c6df82b8b67f7153d79b"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="othello::TurnData::j",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d74/classothello_1_1_turn_data.html#a144dd39f8ffc179788ea61b5709391f1"];
+}
