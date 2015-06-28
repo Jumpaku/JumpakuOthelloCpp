@@ -1,0 +1,11 @@
+digraph "othello::Board::Board"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="othello::Board::Board",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="othello::Color::light",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d02/classothello_1_1_color.html#a1ced780844d487e0950616879804e4d0"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="othello::Color::dark",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d02/classothello_1_1_color.html#a652f102b7bf9152f9a0146baa993c76d"];
+}
