@@ -1,6 +1,6 @@
 #pragma once
 
-#include"../Board/Board.h"
+#include"Board.h"
 
 namespace jo {
 

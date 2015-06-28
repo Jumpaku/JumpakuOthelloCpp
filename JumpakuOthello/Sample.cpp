@@ -1,12 +1,6 @@
-#include"Othello\Othello.h"
+#include"JumpakuOthello.h"
 #include<random>
 #include<iostream>
-
-jo::Color randomColor()
-{
-	return std::uniform_int_distribution<>(0, 1)(std::mt19937(std::random_device()())) == 0 ?
-		jo::Color::dark() : jo::Color::light();
-}
 
 void printBoard(jo::Board const &board)
 {
@@ -50,17 +44,17 @@ public:
 
 int main()
 {	
-	jo::Othello o;
-	jo::Color player = randomColor();
+	jo::Othello othello;
+	jo::Color player = jo::randomColor();
 
-	while (!o.hasFinished()) {
-		printBoard(o.board());
-		if (o.turnColor() == player) {
+	while (!othello.hasFinished()) {
+		printBoard(othello.board());
+		if (othello.turnColor() == player) {
 			int i, j;
 			std::cout << "your turn -->";
 			scanf_s("%1d%1d", &i, &j);
 			try {
-				o.playTurn(jo::Square(i, j, player));
+				othello.playTurn(jo::Square(i, j, player));
 			}
 			catch (jo::OthelloLogicException &e) {
 				std::cout << e.what() << "\n";
@@ -68,10 +62,10 @@ int main()
 			}
 		}
 		else {
-			o.playTurn(std::make_shared<RandomStrategy>());
+			othello.playTurn(std::make_shared<RandomStrategy>());
 		}
 	}
 
-	std::cout << "DARK " << o.discCount(jo::Color::dark()) << " : "
-		<< "LIGHT " << o.discCount(jo::Color::light()) << "\n";
+	std::cout << "DARK " << othello.discCount(jo::Color::dark()) << " : "
+		<< "LIGHT " << othello.discCount(jo::Color::light()) << "\n";
 }

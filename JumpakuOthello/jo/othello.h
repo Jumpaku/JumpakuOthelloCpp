@@ -1,0 +1,16 @@
+#pragma once
+
+#include"othello\Board.h"
+#include"othello\BoardFrame.h"
+#include"othello\BoardIterator.h"
+#include"othello\BoardManager.h"
+#include"othello\Color.h"
+#include"othello\ConstBoardIterator.h"
+#include"othello\Dir.h"
+#include"othello\Disc.h"
+#include"othello\History.h"
+#include"othello\Othello.h"
+#include"othello\Pos.h"
+#include"othello\Square.h"
+#include"othello\SquareCollection.h"
+#include"othello\TurnData.h"

@@ -1,8 +1,9 @@
-#include"Othello.h"
+#include"../Othello.h"
 
-#include"Utility/BoardManager.h"
-#include"Board/Square.h"
-#include"Utility/OthelloLogicException.h"
+#include"../BoardManager.h"
+#include"../Square.h"
+#include"../SquareCollection.h"
+#include"../../Utility/OthelloLogicException.h"
 
 using namespace jo;
 

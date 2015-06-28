@@ -1,7 +1,7 @@
 #pragma once
 
 #include<algorithm>
-#include"..\Utility\Color.h"
+#include"Color.h"
 
 namespace jo {
 

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Utility/BoardFrame.h"
+#include "BoardFrame.h"
 
 #include"Square.h"
 

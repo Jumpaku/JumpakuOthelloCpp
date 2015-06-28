@@ -1,7 +1,7 @@
 #include"../TurnData.h"
 
-#include"../../Board/Square.h"
-#include"../../Board/Disc.h"
+#include"../Square.h"
+#include"../Disc.h"
 
 using namespace jo;
 

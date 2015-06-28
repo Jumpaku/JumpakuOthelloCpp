@@ -1,7 +1,7 @@
 #pragma once
 
 #include"Pos.h"
-#include"../Utility/BoardFrame.h"
+#include"BoardFrame.h"
 #include"BoardIterator.h"
 
 namespace jo {

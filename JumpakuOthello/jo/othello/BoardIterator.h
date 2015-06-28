@@ -1,7 +1,8 @@
 #pragma once
 
 #include"Pos.h"
-#include"../Utility/BoardFrame.h"
+#include"Dir.h"
+#include"BoardFrame.h"
 #include<iterator>
 
 namespace jo {
@@ -48,25 +49,12 @@ public:
 	*/
 	BoardIterator(BoardIterator const &) = default;
 	/**
-	*ムーブコンストラクタ<br>
-	*move constructor
-	*@param iterator
-	*/
-	BoardIterator(BoardIterator &&) = default;
-	/**
 	*コピー代入演算子<br>
 	*copy assignment operator
 	*@param iterator
 	*@return iterator
 	*/
 	BoardIterator &operator=(BoardIterator const &iterator) = default;
-	/**
-	*ムーブ代入演算子<br>
-	*move assignment operator
-	*@param iterator
-	*@return iterator
-	*/
-	BoardIterator &operator=(BoardIterator &&iterator) = default;
 public:
 	/**
 	*現在指している要素を参照する<br>
@@ -170,6 +158,21 @@ public:
 		next();
 		return tmp;
 	}
+	/*
+	*ムーブコンストラクタ<br>
+	*move constructor
+	*@param iterator
+	*
+	BoardIterator(BoardIterator &&) = default;
+	*
+	**
+	*ムーブ代入演算子<br>
+	*move assignment operator
+	*@param iterator
+	*@return iterator
+	*
+	BoardIterator &operator=(BoardIterator &&iterator) = default;
+	*/
 };
 
 }

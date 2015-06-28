@@ -1,12 +1,11 @@
 #pragma once
 
-#include"../Board/Square.h"
-
 #include<memory>
 
 namespace jo {
 
 class Othello;
+class Square;
 
 /**
 *@brief

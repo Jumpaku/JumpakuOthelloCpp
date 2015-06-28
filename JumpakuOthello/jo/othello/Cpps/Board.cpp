@@ -1,6 +1,6 @@
 #include "../Board.h"
 
-#include"../../Utility/Color.h"
+#include"../Color.h"
 #include"../Disc.h"
 
 using namespace jo;

@@ -1,9 +1,9 @@
 #pragma once
 
-#include"Utility/History.h"
-#include"Utility\Color.h"
-#include"Strategy\Strategy.h"
-#include"Utility\BoardManager.h"
+#include"History.h"
+#include"Color.h"
+#include"../strategy/Strategy.h"
+#include"BoardManager.h"
 
 namespace jo {
 
@@ -44,11 +44,12 @@ public:
 	*copy constructor
 	*/
 	Othello(Othello const &) = default;
-	/**
+	/*
 	*ムーブコンストラクタ<br>
 	*move constructor
-	*/
+	*
 	Othello(Othello &&) = default;
+	*/
 private:
 	void select(Square const &choice);
 	void changeTurn();
@@ -135,14 +136,3 @@ public:
 };
 
 }
-
-#include"Utility\BoardFrame.h"
-#include"Utility\BoardIterator.h"
-#include"Utility\Color.h"
-#include"Utility\History.h"
-#include"Utility\OthelloLogicException.h"
-#include"Utility\Pos.h"
-#include"Board\Square.h"
-#include"Utility\TurnData.h"
-#include"Utility\Dir.h"
-#include"Utility\SquareCollection.h"

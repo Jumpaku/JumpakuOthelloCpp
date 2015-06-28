@@ -1,6 +1,6 @@
 #include"../SquareCollection.h"
 
-#include"../../Board/Square.h"
+#include"../Square.h"
 
 using namespace jo;
 

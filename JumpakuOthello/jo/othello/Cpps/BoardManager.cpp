@@ -1,9 +1,9 @@
 #include "../BoardManager.h"
 
-#include"../../Board/Square.h"
+#include"../Square.h"
 #include"../Pos.h"
-#include"../../Board/Board.h"
-#include"../OthelloLogicException.h"
+#include"../Board.h"
+#include"../../Utility/OthelloLogicException.h"
 #include"../Dir.h"
 #include"../SquareCollection.h"
 

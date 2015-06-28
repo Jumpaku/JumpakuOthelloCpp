@@ -1,6 +1,6 @@
 #include"../Color.h"
 
-#include"../OthelloLogicException.h"
+#include"../../Utility/OthelloLogicException.h"
 
 using namespace jo;
 

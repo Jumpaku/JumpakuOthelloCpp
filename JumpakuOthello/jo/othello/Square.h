@@ -1,8 +1,8 @@
 #pragma once
 
 #include<memory>
-#include"../Utility/Pos.h"
-#include"../Board/Disc.h"
+#include"Pos.h"
+#include"Disc.h"
 
 namespace jo {
 
@@ -66,12 +66,7 @@ public:
 	*@param square コピー元のsquare<br> source square
 	*/
 	Square(Square const &square);
-	/**
-	*squareからムーブする<br>
-	*moves square.
-	*@param square ムーブ元のsquare<br> source square
-	*/
-	Square(Square &&) = default;
+	
 	/**
 	*squareをコピー代入する<br>
 	*copy assigns square.
@@ -79,13 +74,6 @@ public:
 	*@return コピー代入されたオブジェクト(*this)<br> copy assigned object(*this)
 	*/
 	Square &operator=(Square const &square);
-	/**
-	*squareをムーブ代入する<br>
-	*move assigns square.
-	*@param square コピー元のSquare<br> source square
-	*@return ムーブ代入されたオブジェクト(*this)<br> move assigned object(*this)
-	*/
-	Square &operator=(Square &&) = default;
 private:
 	static Disc_p make(Disc const &disc);
 public:
@@ -134,6 +122,21 @@ public:
 	*@return squareの列番号<br> column index of square
 	*/
 	int j()const;
+
+	/*
+	*squareからムーブする<br>
+	*moves square.
+	*@param square ムーブ元のsquare<br> source square
+	*
+	Square(Square &&square) = default;
+	*
+	*squareをムーブ代入する<br>
+	*move assigns square.
+	*@param square コピー元のSquare<br> source square
+	*@return ムーブ代入されたオブジェクト(*this)<br> move assigned object(*this)
+	*
+	Square &operator=(Square &&square) = default;
+	*/
 };
 
 }
