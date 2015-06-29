@@ -13,8 +13,9 @@
   3. Add Library/JumpakuOthello.lib and files in Include to your project
 
 ## DOWNLOAD_ME.zip 
-  * Include 
-  ** ヘッダファイル header files
-  * Library
-  ** JumpakuOthello.lib
+  * Include - ヘッダファイル header files
+  * Library - JumpakuOthello.lib
+  * Reference - クラスリファレンス references of classes
+  * Source - ソースコード source code
+  * Sample.cpp - サンプルプログラム sample code
   
