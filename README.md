@@ -14,7 +14,7 @@
 
 ## DOWNLOAD_ME.zip 
   * Include 
-    ** ヘッダファイル header files
+  ** ヘッダファイル header files
   * Library
-    ** JumpakuOthello.lib
+  ** JumpakuOthello.lib
   
