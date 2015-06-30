@@ -19,3 +19,6 @@
   * Source - ソースコード source code
   * Sample.cpp - サンプルプログラム sample code
   
+## Contact
+  * Twitter @Jumpaku https://twitter.com/Jumpaku
+  * Blog   Jumpaku's blog http://jumpaku.hatenablog.com/
