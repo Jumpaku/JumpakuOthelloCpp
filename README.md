@@ -2,7 +2,7 @@
   オセロゲーム開発用のc++ライブラリ  
   詳しい情報はwikiをみてください
   
-  c++ library for othello game
+  c++ library for othello game  
   More detail, see wiki
   
   wiki https://github.com/Jumpaku/JumpakuOthello/wiki
@@ -17,7 +17,7 @@
   2. Extract that
   3. Add Library/JumpakuOthello.lib and files in Include to your project
 
-### DOWNLOAD_ME.zip 
+DOWNLOAD_ME.zip 
   * Include - ヘッダファイル header files
   * Library - JumpakuOthello.lib
   * Reference - クラスリファレンス references of classes
