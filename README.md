@@ -1,7 +1,11 @@
 # Jumpaku Othello
-オセロゲーム開発用のc++ライブラリ  
+  オセロゲーム開発用のc++ライブラリ  
+  詳しい情報はwikiをみてください
+  
   c++ library for othello game
-
+  More detail, see wiki
+  
+  wiki https://github.com/Jumpaku/JumpakuOthello/wiki
 ## How to use
 ### 
   1. "DOWNLOAD\_ME.zip"をダウンロード
