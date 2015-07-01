@@ -2,7 +2,7 @@
   オセロゲーム開発用のc++ライブラリ  
   詳しい情報はwikiをみてください
   
-  c++ library for othello game
+  c++ library for othello game  
   More detail, see wiki
   
   wiki https://github.com/Jumpaku/JumpakuOthello/wiki
