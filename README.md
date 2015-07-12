@@ -17,7 +17,7 @@
   2. Extract that
   3. Add Library/JumpakuOthello.lib and files in Include to your project
 
-##Contets 内容 
+##Contents 内容 
 DOWNLOAD\_ME.zip
   * Include - ヘッダファイル header files
   * Library - JumpakuOthello.lib
